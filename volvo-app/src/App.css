@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Sail&display=swap');
 
-.App{
+.hero{
   color: white;
-  font-family: poppins;
   margin-top: 20px;
   margin-left: 50px;
     font-family: "Arbutus Slab", serif;
-    /* font-weight: 400; */
     font-style: normal;
+.img{
+  margin-left: 75px;
 }
+}
+
 .left{
-  margin-left:20px;
-  margin-top:30px;
+  margin-left:100px;
+  margin-top:60px;
   h1{
   color:#003057;
   letter-spacing: 10px;
@@ -22,24 +24,109 @@ h3{
   font-weight: 100;
   letter-spacing: 5px;
 }
-
-button{
-  background-color: black;
-  color:white;
-  padding:20px;
-  border-radius:20px;
-  border: 2px solid black;
-}}
-.button{
-  margin-top:20px;
 }
-.button2{
-    margin-left:20px;
-  }
+
+.button{
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+ 
 .section1{
   display:flex;
 }
 .right{
-  margin-left: 200px;
+  margin-left: 100px;
   margin-top: -100px;
+}
+
+
+/* SECTION2 */
+.section2 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  margin-top: 50px; 
+  text-align: center;
+  padding: 50px; 
+}
+.h2{
+  font-family: "Arbutus Slab", serif;
+  letter-spacing: 30px;  
+}
+.image{
+  margin-top:30px;
+}
+.sub-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.p{
+  margin-top:50px;
+  font-family: poppins;
+  color:#008CFD;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* SECTION 3 */
+.section3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  margin-top: 50px; 
+  text-align: center;
+  padding: 50px; 
+}
+.sub-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  h3{
+    font-family: "Arbutus Slab", serif;
+    letter-spacing: 20px; 
+    font-size: 25px;
+    font-weight: 100;
+  }
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 50px; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: left; 
+  max-width: 1000px; 
+  padding: 10px; 
+ 
+}
+.items {
+  padding: 10px;
+   h5{
+    font-size:20px;
+  }
+  p{
+    margin-top: -20px;
+  }
+}
+
+/* SECTION 4 */
+/* .section4 { */
+  /* background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  margin-top: 50px; 
+  text-align: center;
+  padding: 50px; 
+} */
+
+.copy{
+  margin-bottom: -100px;
 }
